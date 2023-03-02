@@ -21,11 +21,11 @@ class Queue {
     return this.items.shift();
   }
 
-  top() {
+  last() {
     return this.items[this.size() - 1];
   }
 
-  bottom() {
+  first() {
     return this.items[0];
   }
 
